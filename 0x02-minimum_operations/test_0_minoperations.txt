@@ -1,7 +1,6 @@
 '''
 Run the command below to execute these test cases.
 python3 -m doctest -v test_0_minoperations.txt
-
 Operations path format:
 Character in file: H
 operations: copy all (bit 1) or paste (bit 0),
