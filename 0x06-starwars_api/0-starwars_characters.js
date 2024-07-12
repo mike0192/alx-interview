@@ -7,7 +7,7 @@ if (!movieId) {
   process.exit(1);
 }
 
-const url = `https://swapi.dev/api/films/${movieId}/`;
+const url = `https://swapi.dev/api/films/`;
 
 request(url, (error, response, body) => {
   if (error) {
